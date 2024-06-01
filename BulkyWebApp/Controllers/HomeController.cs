@@ -1,4 +1,4 @@
-using BulkyWebApp.Models;
+using BulkyModels.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
