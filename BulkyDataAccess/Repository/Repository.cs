@@ -4,11 +4,11 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
-using BulkyDataAccess.Data;
-using BulkyDataAccess.Repository.IRepository;
+using BulkyBookDataAccess.Data;
+using BulkyBookDataAccess.Repository.IRepository;
 using Microsoft.EntityFrameworkCore;
 
-namespace BulkyDataAccess.Repository
+namespace BulkyBookDataAccess.Repository
 {
     public class Repository<T> : IRepository<T> where T : class
     {
@@ -31,8 +31,6 @@ namespace BulkyDataAccess.Repository
 
         public T GetFirstOrDefault(Expression<Func<T, bool>> filter)
         {
-            //return dbSet.Find(filter);
-
             IQueryable<T> query = dbSet;
             query = query.Where(filter);
             return query.FirstOrDefault();

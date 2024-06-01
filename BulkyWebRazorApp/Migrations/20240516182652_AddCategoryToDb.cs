@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace BulkyWebRazorApp.Migrations
+namespace BulkyBookWebRazorApp.Migrations
 {
     /// <inheritdoc />
     public partial class AddCategoryToDb : Migration

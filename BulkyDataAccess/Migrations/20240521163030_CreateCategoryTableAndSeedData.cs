@@ -4,7 +4,7 @@
 
 #pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
 
-namespace BulkyDataAccess.Migrations
+namespace BulkyBookDataAccess.Migrations
 {
     /// <inheritdoc />
     public partial class CreateCategoryTableAndSeedData : Migration

@@ -1,4 +1,4 @@
-using BulkyWebRazorApp.Data;
+using BulkyBookWebRazorApp.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

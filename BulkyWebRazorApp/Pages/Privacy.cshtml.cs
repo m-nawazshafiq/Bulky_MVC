@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace BulkyWebRazorApp.Pages
+namespace BulkyBookWebRazorApp.Pages
 {
     public class PrivacyModel : PageModel
     {

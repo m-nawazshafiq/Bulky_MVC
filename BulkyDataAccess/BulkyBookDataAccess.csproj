@@ -14,6 +14,6 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BulkyModels\BulkyModels.csproj" />
+    <ProjectReference Include="..\BulkyModels\BulkyBookModels.csproj" />
   </ItemGroup>
 </Project>
